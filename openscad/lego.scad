@@ -1,16 +1,16 @@
 // TRY IT!
-brick(6,2,1);
+brick(4,4,1);
 
 
 
 // BASE DEFINITION
 unit_width = 8;
 unit_height = 3.2;
-pin_radius = 2.4;
-pin_height = 1.5;
-thickness = 1.6;
+pin_radius = 2.43;   // Adjusted by measuring real pieces
+pin_height = 1.6;	// Adjusted by measuring real pieces
+thickness = 1.52;	// Adjusted by measuring real pieces
 central_cylinder_inner_radius = 4.8/2;
-central_cylinder_outer_radius = 1.6*4.07/2;
+central_cylinder_outer_radius = 6.5/2;
 
 // Returns true if number is pair
 function isPair(value) = value/2 == ceil(value/2);
